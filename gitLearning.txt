@@ -20,6 +20,10 @@ Now run ls/dir command to see the files or directory after cloning , you will se
 so that we can easily understand what changes we have commited 
 run "git commit -m "Message" "
 
+#If you don't create a new file , just changing an existing file you just don't need "add fileName" . We 
+can condense the add and commit in one command using "-am" like below :
+ git commit -am "Some messages"
+
 #Now if we refresh our remote repo we see nothing as the changes we've commited that is in our local repo,
 not pushed it into the remote repo , to do so run the below command :
 "git push "
