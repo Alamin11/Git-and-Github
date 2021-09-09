@@ -1,0 +1,33 @@
+First creating an empty repository into your GitHub account.
+
+Now we need to install git into our device . Then we have to select a directory where we want to clone our remote repository .
+
+Now open cmd terminal and go into the desired directory . Then run the below command to clone the remote repo :
+"git clone <URL>" 
+Here url means the remote repo url .
+
+Now run ls/dir command to see the files or directory after cloning , you will see there a directory with the same name as the remote repository.
+
+#Create a txt file or any kind of other file . 
+
+#Run "git status" command in your cmd terminal .
+
+#Now to add the file run "git add <fileName> " command 
+
+#Again run "git status" command , it will help you to guide the next command 
+
+#To keep track of the changes you made to file easily we need to commit our changes and a messeage with it 
+so that we can easily understand what changes we have commited 
+run "git commit -m "Message" "
+
+#Now if we refresh our remote repo we see nothing as the changes we've commited that is in our local repo,
+not pushed it into the remote repo , to do so run the below command :
+"git push "
+
+If we refresh our remote repo now , we see the file we created locally is in your GitHub repository.
+
+##If you face any issue with pushing your changes into the remote repo like upstream is not set up , run the below two commands :
+"git branch --unset-upstream"
+"git push --set-upstream origin master"
+
+ 
