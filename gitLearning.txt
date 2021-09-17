@@ -8,9 +8,10 @@ Here url means the remote repo url .
 
 Now run ls/dir command to see the files or directory after cloning , you will see there a directory with the same name as the remote repository.
 
-#Create a txt file or any kind of other file . 
+#Create a txt file or any kind of other file. 
+    'echo >fileName'
 
-#Run "git status" command in your cmd terminal .
+#Run "git status" command in your cmd terminal.
 
 #Now to add the file run "git add <fileName> " command 
 
@@ -18,7 +19,7 @@ Now run ls/dir command to see the files or directory after cloning , you will se
 
 #To keep track of the changes you made to file easily we need to commit our changes and a messeage with it 
 so that we can easily understand what changes we have commited 
-run "git commit -m "Message" "
+run "git commit -m "Message"
 
 #If you don't create a new file , just changing an existing file you just don't need "add fileName" . We 
 can condense the add and commit in one command using "-am" like below :
